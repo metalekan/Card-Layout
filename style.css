@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Outfit&family=Poppins:wght@500&display=swap');
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    height: 90vh;
+    width: 1440px;
+    font-family: 'Outfit', sans-serif;   
+}
+
+.inside {
+    background-color: hsl(0, 0%, 100%);
+    margin: 100px auto;
+    width: 280px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 12px 12px 45px 12px;
+    text-align: center;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+h4 {
+    color: hsl(218, 44%, 22%);
+}
+
+.inside img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (width <= 600px) {
+    body {
+        width: 100vw;
+    }
+    .inside {
+        margin: 35px auto;
+    }
+}
